@@ -50,6 +50,10 @@ body {
   list-style: none;
 }
 
+.btn {
+  border-radius: 100px;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
