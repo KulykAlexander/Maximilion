@@ -29,7 +29,7 @@
       </a>
       <div class="decktop-menu">
         <nav>
-          <ul>
+          <ul class="list">
             <li><a href="">Residential</a></li>
             <li><a href="">Commercial</a></li>
             <li><a href="">Agents</a></li>
@@ -37,7 +37,7 @@
             <li><a href="">Contact Us</a></li>
           </ul>
         </nav>
-        <ul>
+        <ul class="list">
           <li><a href="tel:+17183769300">+1 (718) 376-9300</a></li>
           <li>
             <a href="">
@@ -50,7 +50,7 @@
       </div>
       <div class="mob-menu">
         <nav>
-          <ul>
+          <ul class="list">
             <li><a href="">Residential</a></li>
             <li><a href="">Commercial</a></li>
             <li><a href="">Agents</a></li>
@@ -58,7 +58,7 @@
             <li><a href="">Contact Us</a></li>
           </ul>
         </nav>
-        <ul>
+        <ul class="list">
           <li><a href="tel:+17183769300">+1 (718) 376-9300</a></li>
           <li>
             <a href="">
@@ -82,7 +82,7 @@
       </section>
       <!-- Numbers -->
       <section class="numbers section">
-        <ul>
+        <ul class="list">
           <li>
             <div>
               <svg class="" width="123" height="51">
@@ -120,9 +120,23 @@
       <!-- about us -->
       <section>
         <h2>about us</h2>
-        <ul>
+        <ul class="list">
           <li>
-            <picture></picture>
+            <picture>
+              <source
+                srcset="./images/about/about1.jpg 1x, ./images/about/about1-2x.jpg 2x"
+                media="(min-width:1200px)"
+              />
+              <source
+                srcset="./images/about/about1-tab.jpg 1x, ./images/about/about1-tab-2x.jpg 2x"
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="./images/about/about1-mob.jpg 1x, ./images/about/about1-mob-2x.jpg 2x"
+                media="(max-width:767px)"
+              />
+              <img src="./images/about/about1.jpg" alt="map" width="527" height="640" />
+            </picture>
             <h3>Superior service</h3>
             <p>
               Since 1992, the professionals at Maximillion Realty, Inc. have offered superior
@@ -134,7 +148,21 @@
             <button>Learn More</button>
           </li>
           <li>
-            <picture></picture>
+            <picture>
+              <source
+                srcset="./images/about/about2.jpg 1x, ./images/about/about2-2x.jpg 2x"
+                media="(min-width:1200px)"
+              />
+              <source
+                srcset="./images/about/about2-tab.jpg 1x, ./images/about/about2-tab-2x.jpg 2x"
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="./images/about/about2-mob.jpg 1x, ./images/about/about2-mob-2x.jpg 2x"
+                media="(max-width:767px)"
+              />
+              <img src="./images/about/about2.jpg" alt="map" width="527" height="640" />
+            </picture>
             <h3>Guaranteed outstanding results</h3>
             <p>
               Whether you’re looking to buy or sell, the professionals at Maximillion Realty, Inc.
@@ -145,7 +173,21 @@
             <button>Learn More</button>
           </li>
           <li>
-            <picture></picture>
+            <picture>
+              <source
+                srcset="./images/about/about3.jpg 1x, ./images/about/about3-2x.jpg 2x"
+                media="(min-width:1200px)"
+              />
+              <source
+                srcset="./images/about/about3-tab.jpg 1x, ./images/about/about3-tab-2x.jpg 2x"
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="./images/about/about3-mob.jpg 1x, ./images/about/about3-mob-2x.jpg 2x"
+                media="(max-width:767px)"
+              />
+              <img src="./images/about/about3.jpg" alt="map" width="527" height="640" />
+            </picture>
             <h3>Looking for a new home?</h3>
             <p>
               From office space to industrial, retail to hotel, Maximillion Realty, Inc. has the
@@ -157,7 +199,21 @@
             <button>Learn More</button>
           </li>
           <li>
-            <picture></picture>
+            <picture>
+              <source
+                srcset="./images/about/about4.jpg 1x, ./images/about/about4-2x.jpg 2x"
+                media="(min-width:1200px)"
+              />
+              <source
+                srcset="./images/about/about4-tab.jpg 1x, ./images/about/about4-tab-2x.jpg 2x"
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="./images/about/about4-mob.jpg 1x, ./images/about/about4-mob-2x.jpg 2x"
+                media="(max-width:767px)"
+              />
+              <img src="./images/about/about4.jpg" alt="map" width="527" height="640" />
+            </picture>
             <h3>Selling your property?</h3>
             <p>
               From office space to industrial, retail to hotel, Maximillion Realty, Inc. has the
@@ -269,7 +325,7 @@
         </picture>
         <div>
           <h3>New York</h3>
-          <ul>
+          <ul class="list">
             <li>
               <svg class="" width="15" height="15">
                 <use href="./images/icons.svg#icon-geo"></use>
@@ -310,7 +366,7 @@
         </picture>
         <div>
           <h3>New Jersey</h3>
-          <ul>
+          <ul class="list">
             <li>
               <svg class="" width="15" height="15">
                 <use href="./images/icons.svg#icon-geo"></use>
@@ -358,23 +414,23 @@
           <use href="./images/icons.svg#icon-logo-footer"></use>
         </svg>
       </a>
-      <ul>
+      <ul class="list">
         <li><a href="">Residential</a></li>
         <li><a href="">Commercial</a></li>
         <li><a href="">Agents</a></li>
       </ul>
-      <ul>
+      <ul class="list">
         <li><a href="">Employment</a></li>
         <li><a href="">Contact Us</a></li>
         <li><a href="">FAQ</a></li>
       </ul>
-      <ul>
+      <ul class="list">
         <li><a href="">Privacy Policy</a></li>
         <li><a href="">Help & Advice</a></li>
         <li><a href="">Terms & Conditions</a></li>
       </ul>
       <p>&#169; 2001-2022 Maximillion Realty, Inc.</p>
-      <ul>
+      <ul class="list">
         <li><a href="tel:+17183769300">+1 (718) 376-9300</a></li>
         <li>
           <a href="">
