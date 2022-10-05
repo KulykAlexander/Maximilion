@@ -1,0 +1,14 @@
+.titel {
+  font-family: 'Playfair Display' serif;
+  font-size: 24px;
+  line-height: 1.33;
+  @include tablet {
+    font-size: 26px;
+    line-height: 1.59;
+  }
+  @include desktop {
+    font-size: 32px;
+  }
+
+  color: var(--main-titel-color);
+}

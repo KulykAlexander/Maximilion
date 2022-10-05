@@ -20,5 +20,7 @@ body {
   list-style: none;
 }
 .btn {
+  font-family: inherit;
+  border: 2px solid var(--accent-color);
   border-radius: 100px;
 }

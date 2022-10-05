@@ -1,6 +1,10 @@
 :root {
   --maim-color: #232a31;
   --accent-color: #59bc73;
+  --main-titel-color: #232a31;
+  --second-titel-color: #ffffff;
+  --main-text-color: #757575;
+  --second-text-color: #ffffff;
 }
 
 h1,
@@ -51,6 +55,8 @@ body {
 }
 
 .btn {
+  font-family: inherit;
+  border: 2px solid var(--accent-color);
   border-radius: 100px;
 }
 
@@ -65,5 +71,46 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+
+.titel {
+  font-family: 'Playfair Display' serif;
+  font-size: 24px;
+  line-height: 1.33;
+  color: var(--main-titel-color);
+}
+
+@media screen and (min-width: 768px) {
+  .titel {
+    font-size: 26px;
+    line-height: 1.59;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .titel {
+    font-size: 32px;
+  }
+}
+
+.text {
+  font-family: 'Montserrat' sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--main-text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .text {
+    font-size: 16px;
+    line-height: 2.06;
+  }
 }
 /*# sourceMappingURL=main.css.map */

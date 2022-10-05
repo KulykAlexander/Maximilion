@@ -1,0 +1,16 @@
+.text {
+  font-family: 'Montserrat' sans-serif;
+
+  font-size: 14px;
+  line-height: 1.6;
+  @include tablet {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  @include desktop {
+    font-size: 16px;
+    line-height: 2.06;
+  }
+
+  color: var(--main-text-color);
+}
