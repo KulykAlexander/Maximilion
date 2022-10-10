@@ -1,0 +1,23 @@
+.numbers-list {
+  display: flex;
+  justify-content: center;
+  gap: 47px;
+}
+.numbers-content {
+  width: 121px;
+  height: 61px;
+  @include desktop {
+    width: 138px;
+    height: 68px;
+  }
+}
+.numbers-text {
+  margin-top: 7px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  @include desktop {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}

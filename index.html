@@ -22,295 +22,333 @@
   </head>
   <body>
     <header class="header">
-      <a href="" class="link">
-        <svg class="" width="200" height="64">
-          <use href="./images/icons.svg#icon-logo"></use>
-        </svg>
-      </a>
-      <div class="decktop-menu">
-        <nav>
+      <div class="container">
+        <a href="" class="link">
+          <svg class="" width="200" height="64">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <div class="decktop-menu">
+          <nav>
+            <ul class="list">
+              <li><a href="" class="link">Residential</a></li>
+              <li><a href="" class="link">Commercial</a></li>
+              <li><a href="" class="link">Agents</a></li>
+              <li><a href="" class="link">Employment</a></li>
+              <li><a href="" class="link">Contact Us</a></li>
+            </ul>
+          </nav>
           <ul class="list">
-            <li><a href="" class="link">Residential</a></li>
-            <li><a href="" class="link">Commercial</a></li>
-            <li><a href="" class="link">Agents</a></li>
-            <li><a href="" class="link">Employment</a></li>
-            <li><a href="" class="link">Contact Us</a></li>
+            <li><a href="tel:+17183769300" class="link">+1 (718) 376-9300</a></li>
+            <li>
+              <a href="" class="link">
+                <svg class="" width="19" height="19">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-        </nav>
-        <ul class="list">
-          <li><a href="tel:+17183769300" class="link">+1 (718) 376-9300</a></li>
-          <li>
-            <a href="" class="link">
-              <svg class="" width="19" height="19">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="mob-menu">
-        <nav>
+        </div>
+        <div class="mob-menu">
+          <nav>
+            <ul class="list">
+              <li><a href="" class="link">Residential</a></li>
+              <li><a href="" class="link">Commercial</a></li>
+              <li><a href="" class="link">Agents</a></li>
+              <li><a href="" class="link">Employment</a></li>
+              <li><a href="" class="link">Contact Us</a></li>
+            </ul>
+          </nav>
           <ul class="list">
-            <li><a href="" class="link">Residential</a></li>
-            <li><a href="" class="link">Commercial</a></li>
-            <li><a href="" class="link">Agents</a></li>
-            <li><a href="" class="link">Employment</a></li>
-            <li><a href="" class="link">Contact Us</a></li>
+            <li><a href="tel:+17183769300" class="link">+1 (718) 376-9300</a></li>
+            <li>
+              <a href="" class="link">
+                <svg class="" width="26" height="26">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-        </nav>
-        <ul class="list">
-          <li><a href="tel:+17183769300" class="link">+1 (718) 376-9300</a></li>
-          <li>
-            <a href="" class="link">
-              <svg class="" width="26" height="26">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <!-- <include src="./partials/header.html"></include> -->
     <main>
       <!-- Hero -->
       <section class="section hero">
-        <div class="hero-content">
-          <h1 class="hero-titel">Residential and Commercial Real Estate</h1>
-          <p class="hero-text text">
-            Experience and superior service make Maximillion Realty, Inc. a first choice in
-            tri-state area Residential and Commercial Real Estate transactions.
-          </p>
-          <button type="button" class="hero-btn btn">Learn More</button>
+        <div class="container">
+          <div class="hero-img">
+            <picture>
+              <source
+                srcset="./images/hero.jpg 1x, ./images/hero-2x.jpg 2x"
+                media="(min-width:1200px)"
+              />
+              <source
+                srcset="./images/hero-tab.jpg 1x, ./images/hero-tab-2x.jpg 2x"
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="./images/hero-mob.jpg 1x, ./images/hero-mob-2x.jpg 2x"
+                media="(max-width:767px)"
+              />
+              <img src="./images/hero.jpg" alt="house" width="527" height="640" />
+            </picture>
+          </div>
+
+          <div class="hero-content">
+            <h1 class="hero-titel">Residential and Commercial Real Estate</h1>
+            <p class="hero-text text">
+              Experience and superior service make Maximillion Realty, Inc. a first choice in
+              tri-state area Residential and Commercial Real Estate transactions.
+            </p>
+            <button type="button" class="hero-btn btn">Learn More</button>
+          </div>
         </div>
       </section>
       <!-- Numbers -->
       <section class="section numbers">
-        <ul class="list">
-          <li>
-            <div>
-              <svg class="" width="123" height="51">
-                <use href="./images/icons.svg#icon-home"></use>
-              </svg>
-              <p class="text">Homes for sale</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <svg class="" width="74" height="51">
-                <use href="./images/icons.svg#icon-house"></use>
-              </svg>
-              <p class="text">Open houses</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <svg class="" width="116" height="51">
-                <use href="./images/icons.svg#icon-sold"></use>
-              </svg>
-              <p class="text">Recently sold</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <svg class="" width="100" height="51">
-                <use href="./images/icons.svg#icon-price"></use>
-              </svg>
-              <p class="text">Price reduced</p>
-            </div>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="numbers-list list">
+            <li class="numbers-item">
+              <div class="numbers-content">
+                <svg class="numbers-icon" width="123" height="51">
+                  <use href="./images/icons.svg#icon-home"></use>
+                </svg>
+                <p class="numbers-text text">Homes for sale</p>
+              </div>
+            </li>
+            <li class="numbers-item">
+              <div class="numbers-content">
+                <svg class="numbers-icon" width="74" height="51">
+                  <use href="./images/icons.svg#icon-house"></use>
+                </svg>
+                <p class="numbers-text text">Open houses</p>
+              </div>
+            </li>
+            <li class="numbers-item">
+              <div class="numbers-content">
+                <svg class="numbers-icon" width="116" height="51">
+                  <use href="./images/icons.svg#icon-sold"></use>
+                </svg>
+                <p class="numbers-text text">Recently sold</p>
+              </div>
+            </li>
+            <li class="numbers-item">
+              <div class="numbers-content">
+                <svg class="numbers-icon" width="100" height="51">
+                  <use href="./images/icons.svg#icon-price"></use>
+                </svg>
+                <p class="numbers-text text">Price reduced</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- about us -->
       <section class="section about-us">
-        <h2 class="visually-hidden">about us</h2>
-        <ul class="list">
-          <li>
-            <picture>
-              <source
-                srcset="./images/about/about1.jpg 1x, ./images/about/about1-2x.jpg 2x"
-                media="(min-width:1200px)"
-              />
-              <source
-                srcset="./images/about/about1-tab.jpg 1x, ./images/about/about1-tab-2x.jpg 2x"
-                media="(min-width:768px)"
-              />
-              <source
-                srcset="./images/about/about1-mob.jpg 1x, ./images/about/about1-mob-2x.jpg 2x"
-                media="(max-width:767px)"
-              />
-              <img src="./images/about/about1.jpg" alt="map" width="527" height="640" />
-            </picture>
-            <h3 class="titel">Superior service</h3>
-            <p class="text">
-              Since 1992, the professionals at Maximillion Realty, Inc. have offered superior
-              service in all aspects of Residential and Commercial Real Estate. Our highly-trained
-              team of more than fourth Real Estate experts have consistently provided superior
-              levels of service and performance in the purchase and sale of Real Estate throughout
-              the Tri State region.
-            </p>
-            <button type="button" class="btn"><a href="" class="link">Learn More</a></button>
-          </li>
-          <li>
-            <picture>
-              <source
-                srcset="./images/about/about2.jpg 1x, ./images/about/about2-2x.jpg 2x"
-                media="(min-width:1200px)"
-              />
-              <source
-                srcset="./images/about/about2-tab.jpg 1x, ./images/about/about2-tab-2x.jpg 2x"
-                media="(min-width:768px)"
-              />
-              <source
-                srcset="./images/about/about2-mob.jpg 1x, ./images/about/about2-mob-2x.jpg 2x"
-                media="(max-width:767px)"
-              />
-              <img src="./images/about/about2.jpg" alt="map" width="527" height="640" />
-            </picture>
-            <h3 class="titel">Guaranteed outstanding results</h3>
-            <p class="text">
-              Whether you’re looking to buy or sell, the professionals at Maximillion Realty, Inc.
-              have the experience and know-how to deliver guaranteed outstanding results in all
-              transactions involving Residential as well as industrial, retail, restaurant,
-              apartment or hotel property.
-            </p>
-            <button type="button" class="btn"><a href="" class="link">Learn More</a></button>
-          </li>
-          <li>
-            <picture>
-              <source
-                srcset="./images/about/about3.jpg 1x, ./images/about/about3-2x.jpg 2x"
-                media="(min-width:1200px)"
-              />
-              <source
-                srcset="./images/about/about3-tab.jpg 1x, ./images/about/about3-tab-2x.jpg 2x"
-                media="(min-width:768px)"
-              />
-              <source
-                srcset="./images/about/about3-mob.jpg 1x, ./images/about/about3-mob-2x.jpg 2x"
-                media="(max-width:767px)"
-              />
-              <img src="./images/about/about3.jpg" alt="map" width="527" height="640" />
-            </picture>
-            <h3 class="titel">Looking for a new home?</h3>
-            <p class="text">
-              From office space to industrial, retail to hotel, Maximillion Realty, Inc. has the
-              experience you desire. Our sales staff as well as our legal and financial teams are
-              ready to serve you around the clock, to provide you with a customer-focused approach
-              when buying, selling, listing or locating any type of Real Estate, including niche
-              properties and private equity Real Estate transactions.
-            </p>
-            <button type="button" class="btn"><a href="" class="link">Learn More</a></button>
-          </li>
-          <li>
-            <picture>
-              <source
-                srcset="./images/about/about4.jpg 1x, ./images/about/about4-2x.jpg 2x"
-                media="(min-width:1200px)"
-              />
-              <source
-                srcset="./images/about/about4-tab.jpg 1x, ./images/about/about4-tab-2x.jpg 2x"
-                media="(min-width:768px)"
-              />
-              <source
-                srcset="./images/about/about4-mob.jpg 1x, ./images/about/about4-mob-2x.jpg 2x"
-                media="(max-width:767px)"
-              />
-              <img src="./images/about/about4.jpg" alt="map" width="527" height="640" />
-            </picture>
-            <h3 class="titel">Selling your property?</h3>
-            <p class="text">
-              From office space to industrial, retail to hotel, Maximillion Realty, Inc. has the
-              experience you desire. Our sales staff as well as our legal and financial teams are
-              ready to serve you around the clock, to provide you with a customer-focused approach
-              when buying, selling, listing or locating any type of Real Estate, including niche
-              properties and private equity Real Estate transactions.
-            </p>
-            <button type="button" class="btn"><a href="" class="link">Learn More</a></button>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="visually-hidden">about us</h2>
+          <ul class="list">
+            <li>
+              <picture>
+                <source
+                  srcset="./images/about/about1.jpg 1x, ./images/about/about1-2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./images/about/about1-tab.jpg 1x, ./images/about/about1-tab-2x.jpg 2x"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="./images/about/about1-mob.jpg 1x, ./images/about/about1-mob-2x.jpg 2x"
+                  media="(max-width:767px)"
+                />
+                <img src="./images/about/about1.jpg" alt="map" width="527" height="640" />
+              </picture>
+              <h3 class="titel">Superior service</h3>
+              <p class="text">
+                Since 1992, the professionals at Maximillion Realty, Inc. have offered superior
+                service in all aspects of Residential and Commercial Real Estate. Our highly-trained
+                team of more than fourth Real Estate experts have consistently provided superior
+                levels of service and performance in the purchase and sale of Real Estate throughout
+                the Tri State region.
+              </p>
+              <button type="button" class="btn"><a href="" class="link">Learn More</a></button>
+            </li>
+            <li>
+              <picture>
+                <source
+                  srcset="./images/about/about2.jpg 1x, ./images/about/about2-2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./images/about/about2-tab.jpg 1x, ./images/about/about2-tab-2x.jpg 2x"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="./images/about/about2-mob.jpg 1x, ./images/about/about2-mob-2x.jpg 2x"
+                  media="(max-width:767px)"
+                />
+                <img src="./images/about/about2.jpg" alt="map" width="527" height="640" />
+              </picture>
+              <h3 class="titel">Guaranteed outstanding results</h3>
+              <p class="text">
+                Whether you’re looking to buy or sell, the professionals at Maximillion Realty, Inc.
+                have the experience and know-how to deliver guaranteed outstanding results in all
+                transactions involving Residential as well as industrial, retail, restaurant,
+                apartment or hotel property.
+              </p>
+              <button type="button" class="btn"><a href="" class="link">Learn More</a></button>
+            </li>
+            <li>
+              <picture>
+                <source
+                  srcset="./images/about/about3.jpg 1x, ./images/about/about3-2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./images/about/about3-tab.jpg 1x, ./images/about/about3-tab-2x.jpg 2x"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="./images/about/about3-mob.jpg 1x, ./images/about/about3-mob-2x.jpg 2x"
+                  media="(max-width:767px)"
+                />
+                <img src="./images/about/about3.jpg" alt="map" width="527" height="640" />
+              </picture>
+              <h3 class="titel">Looking for a new home?</h3>
+              <p class="text">
+                From office space to industrial, retail to hotel, Maximillion Realty, Inc. has the
+                experience you desire. Our sales staff as well as our legal and financial teams are
+                ready to serve you around the clock, to provide you with a customer-focused approach
+                when buying, selling, listing or locating any type of Real Estate, including niche
+                properties and private equity Real Estate transactions.
+              </p>
+              <button type="button" class="btn"><a href="" class="link">Learn More</a></button>
+            </li>
+            <li>
+              <picture>
+                <source
+                  srcset="./images/about/about4.jpg 1x, ./images/about/about4-2x.jpg 2x"
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="./images/about/about4-tab.jpg 1x, ./images/about/about4-tab-2x.jpg 2x"
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="./images/about/about4-mob.jpg 1x, ./images/about/about4-mob-2x.jpg 2x"
+                  media="(max-width:767px)"
+                />
+                <img src="./images/about/about4.jpg" alt="map" width="527" height="640" />
+              </picture>
+              <h3 class="titel">Selling your property?</h3>
+              <p class="text">
+                From office space to industrial, retail to hotel, Maximillion Realty, Inc. has the
+                experience you desire. Our sales staff as well as our legal and financial teams are
+                ready to serve you around the clock, to provide you with a customer-focused approach
+                when buying, selling, listing or locating any type of Real Estate, including niche
+                properties and private equity Real Estate transactions.
+              </p>
+              <button type="button" class="btn"><a href="" class="link">Learn More</a></button>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Banner -->
       <section class="section baner">
-        <h3 class="titel">Let’s find the right selling option for you</h3>
-        <p class="text">
-          From office space to industrial, retail to hotel, Maximillion Realty, Inc. has the
-          experience you desire.
-        </p>
-        <button type="button" class="btn"><a href="" class="link">Let’s start</a></button>
-        <svg class="" width="217" height="264">
-          <use href="./images/icons.svg#icon-logosecond"></use>
-        </svg>
+        <div class="container">
+          <h3 class="titel">Let’s find the right selling option for you</h3>
+          <p class="text">
+            From office space to industrial, retail to hotel, Maximillion Realty, Inc. has the
+            experience you desire.
+          </p>
+          <button type="button" class="btn"><a href="" class="link">Let’s start</a></button>
+          <svg class="" width="217" height="264">
+            <use href="./images/icons.svg#icon-logosecond"></use>
+          </svg>
+        </div>
       </section>
       <!-- Directions -->
       <section class="section directions">
-        <h2 class="visually-hidden">Directions</h2>
-        <div>
-          <picture>
-            <source
-              srcset="./images/residential.jpg 1x, ./images/residential-2x.jpg 2x"
-              media="(min-width:1200px)"
-            />
-            <source
-              srcset="./images/residential-tab.jpg 1x, ./images/residential-tab-2x.jpg 2x"
-              media="(min-width:768px)"
-            />
-            <source
-              srcset="./images/residential-mob.jpg 1x, ./images/residential-mob-2x.jpg 2x"
-              media="(max-width:767px)"
-            />
-            <img
-              src="./images/residential.jpg"
-              alt="Residential Real Estate"
-              width="567"
-              height="360"
-            />
-          </picture>
-          <svg class="" width="32" height="32">
-            <use href="./images/icons.svg#icon-residential"></use>
-          </svg>
-          <h3 class="titel">Residential Real Estate</h3>
-          <p class="text">Smart home buying and selling starts here</p>
-          <button type="button" class="btn">
-            <a href="" class="link">Read More</a>
-            <svg class="" width="19" height="12">
-              <use href="./images/icons.svg#icon-arrow"></use>
-            </svg>
-          </button>
-        </div>
-        <div>
-          <picture>
-            <source
-              srcset="./images/commercial.jpg 1x, ./images/commercial-2x.jpg 2x"
-              media="(min-width:1200px)"
-            />
-            <source
-              srcset="./images/commercial-tab.jpg 1x, ./images/commercial-tab-2x.jpg 2x"
-              media="(min-width:768px)"
-            />
-            <source
-              srcset="./images/commercial-mob.jpg 1x, ./images/commercial-mob-2x.jpg 2x"
-              media="(max-width:767px)"
-            />
-            <img
-              src="./images/commercial.jpg"
-              alt="Commercial Real Estate"
-              width="567"
-              height="360"
-            />
-          </picture>
-          <svg class="" width="32" height="32">
-            <use href="./images/icons.svg#icon-commercial"></use>
-          </svg>
-          <h3 class="titel">Commercial Real Estate</h3>
-          <p class="text">The smartest name in commercial Real Estate.</p>
-          <button type="button" class="btn">
-            <a href="" class="link">Read More</a>
-            <svg class="" width="19" height="12">
-              <use href="./images/icons.svg#icon-arrow"></use>
-            </svg>
-          </button>
+        <div class="container">
+          <h2 class="visually-hidden">Directions</h2>
+          <ul>
+            <li>
+              <div>
+                <picture>
+                  <source
+                    srcset="./images/residential.jpg 1x, ./images/residential-2x.jpg 2x"
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="./images/residential-tab.jpg 1x, ./images/residential-tab-2x.jpg 2x"
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="./images/residential-mob.jpg 1x, ./images/residential-mob-2x.jpg 2x"
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="./images/residential.jpg"
+                    alt="Residential Real Estate"
+                    width="567"
+                    height="360"
+                  />
+                </picture>
+                <svg class="" width="32" height="32">
+                  <use href="./images/icons.svg#icon-residential"></use>
+                </svg>
+                <h3 class="titel">Residential Real Estate</h3>
+                <p class="text">Smart home buying and selling starts here</p>
+                <button type="button" class="btn">
+                  <a href="" class="link">Read More</a>
+                  <svg class="" width="19" height="12">
+                    <use href="./images/icons.svg#icon-arrow"></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+            <li>
+              <div>
+                <picture>
+                  <source
+                    srcset="./images/commercial.jpg 1x, ./images/commercial-2x.jpg 2x"
+                    media="(min-width:1200px)"
+                  />
+                  <source
+                    srcset="./images/commercial-tab.jpg 1x, ./images/commercial-tab-2x.jpg 2x"
+                    media="(min-width:768px)"
+                  />
+                  <source
+                    srcset="./images/commercial-mob.jpg 1x, ./images/commercial-mob-2x.jpg 2x"
+                    media="(max-width:767px)"
+                  />
+                  <img
+                    src="./images/commercial.jpg"
+                    alt="Commercial Real Estate"
+                    width="567"
+                    height="360"
+                  />
+                </picture>
+                <svg class="" width="32" height="32">
+                  <use href="./images/icons.svg#icon-commercial"></use>
+                </svg>
+                <h3 class="titel">Commercial Real Estate</h3>
+                <p class="text">The smartest name in commercial Real Estate.</p>
+                <button type="button" class="btn">
+                  <a href="" class="link">Read More</a>
+                  <svg class="" width="19" height="12">
+                    <use href="./images/icons.svg#icon-arrow"></use>
+                  </svg>
+                </button>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
+    </main>
+    <footer class="footer">
       <!-- Contact -->
       <section class="section contact">
         <h2>Contact us</h2>
@@ -410,39 +448,39 @@
           <button type="submit" class="btn">Submit</button>
         </form>
       </section>
-    </main>
-    <footer class="footer">
-      <a href="" class="link">
-        <svg class="" width="185" height="150">
-          <use href="./images/icons.svg#icon-logo-footer"></use>
-        </svg>
-      </a>
-      <ul class="list">
-        <li><a href="" class="link">Residential</a></li>
-        <li><a href="" class="link">Commercial</a></li>
-        <li><a href="" class="link">Agents</a></li>
-      </ul>
-      <ul class="list">
-        <li><a href="" class="link">Employment</a></li>
-        <li><a href="" class="link">Contact Us</a></li>
-        <li><a href="" class="link">FAQ</a></li>
-      </ul>
-      <ul class="list">
-        <li><a href="" class="link">Privacy Policy</a></li>
-        <li><a href="" class="link">Help & Advice</a></li>
-        <li><a href="" class="link">Terms & Conditions</a></li>
-      </ul>
-      <p class="text">&#169; 2001-2022 Maximillion Realty, Inc.</p>
-      <ul class="list">
-        <li><a href="tel:+17183769300" class="link">+1 (718) 376-9300</a></li>
-        <li>
-          <a href="" class="link">
-            <svg class="" width="19" height="19">
-              <use href="./images/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+      <section>
+        <a href="" class="link">
+          <svg class="" width="185" height="150">
+            <use href="./images/icons.svg#icon-logo-footer"></use>
+          </svg>
+        </a>
+        <ul class="list">
+          <li><a href="" class="link">Residential</a></li>
+          <li><a href="" class="link">Commercial</a></li>
+          <li><a href="" class="link">Agents</a></li>
+        </ul>
+        <ul class="list">
+          <li><a href="" class="link">Employment</a></li>
+          <li><a href="" class="link">Contact Us</a></li>
+          <li><a href="" class="link">FAQ</a></li>
+        </ul>
+        <ul class="list">
+          <li><a href="" class="link">Privacy Policy</a></li>
+          <li><a href="" class="link">Help & Advice</a></li>
+          <li><a href="" class="link">Terms & Conditions</a></li>
+        </ul>
+        <p class="text">&#169; 2001-2022 Maximillion Realty, Inc.</p>
+        <ul class="list">
+          <li><a href="tel:+17183769300" class="link">+1 (718) 376-9300</a></li>
+          <li>
+            <a href="" class="link">
+              <svg class="" width="19" height="19">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </section>
     </footer>
   </body>
 </html>
