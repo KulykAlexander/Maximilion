@@ -2,6 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 25px 40px;
+}
+.desktop-menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 42px;
+}
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 57px;
 }
 .desktop-nav-link {
   font-weight: 500;
@@ -9,6 +20,11 @@
   line-height: 1.23;
   text-transform: uppercase;
   color: var(--main-color);
+}
+.cont-menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 42px;
 }
 .header-tel {
   font-weight: 500;
