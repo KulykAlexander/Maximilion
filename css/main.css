@@ -79,6 +79,24 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container {
+    width: 1920px;
+  }
+}
+
 .titel {
   font-family: 'Playfair Display' serif;
   font-size: 24px;
@@ -93,7 +111,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
   .titel {
     font-size: 32px;
   }
@@ -113,11 +131,33 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
   .text {
     font-size: 16px;
     line-height: 2.06;
   }
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desktop-nav-link {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.23;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.menu-btn {
+  display: none;
+}
+
+.mob-menu {
+  display: none;
 }
 
 .hero {
@@ -147,7 +187,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
   .hero-img {
     max-width: 1183px;
     height: 810px;
@@ -180,7 +220,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
   .hero-content {
     width: 768px;
     height: 486px;
@@ -236,7 +276,7 @@ body {
   height: 61px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
   .numbers-content {
     width: 138px;
     height: 68px;
@@ -250,7 +290,7 @@ body {
   line-height: 1.25;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
   .numbers-text {
     font-size: 18px;
     line-height: 1.22;
