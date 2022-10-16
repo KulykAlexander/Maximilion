@@ -13,6 +13,7 @@
 .numbers-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
   gap: 48px;
 
@@ -23,9 +24,10 @@
   }
 }
 .numbers-item {
-  width: 100%;
+  // width: 100%;
   @include mobile {
     width: calc((100% - 48px) / 2);
+    width: 121px;
   }
   @include tablet {
     // gap: 69px;

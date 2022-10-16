@@ -1,0 +1,61 @@
+.baner .container {
+  //   position: relative;
+  text-align: center;
+  padding-top: 51px;
+  padding-bottom: 38px;
+  background-color: var(--accent-color);
+  @include tablet {
+    padding-top: 66px;
+    padding-bottom: 53px;
+  }
+  @include desktop {
+    padding-top: 70px;
+    padding-bottom: 69px;
+  }
+}
+.baner-titel {
+  margin-bottom: 27px;
+  text-align: center;
+  color: var(--second-titel-color);
+}
+.baner-text {
+  text-align: center;
+  color: var(--second-text-color);
+  margin-bottom: 27px;
+}
+.baner-btn {
+  display: inline-block;
+  width: 268px;
+  height: 49px;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 2.06;
+  letter-spacing: 0.065em;
+  text-align: center;
+  text-transform: uppercase;
+  @include tablet {
+    width: 188px;
+  }
+  @include desktop {
+    width: 232px;
+    height: 60px;
+    font-size: 15px;
+  }
+}
+.baner-link {
+  color: var(--accent-color);
+}
+.baner-icon {
+  width: 268px;
+  height: 136px;
+  margin-bottom: 27px;
+  @include tablet {
+    width: 308px;
+    height: 157px;
+  }
+  @include desktop {
+    width: 517px;
+    height: 264px;
+  }
+}

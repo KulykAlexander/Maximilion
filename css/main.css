@@ -468,6 +468,7 @@ body {
 .numbers-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 48px;
   margin-left: auto;
   margin-right: auto;
@@ -479,13 +480,10 @@ body {
   }
 }
 
-.numbers-item {
-  width: 100%;
-}
-
 @media screen and (min-width: 480px) {
   .numbers-item {
     width: calc((100% - 48px) / 2);
+    width: 121px;
   }
 }
 
@@ -619,5 +617,89 @@ body {
 
 .about-us-btn .about-us-link {
   color: var(--accent-color);
+}
+
+.baner .container {
+  text-align: center;
+  padding-top: 51px;
+  padding-bottom: 38px;
+  background-color: var(--accent-color);
+}
+
+@media screen and (min-width: 768px) {
+  .baner .container {
+    padding-top: 66px;
+    padding-bottom: 53px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .baner .container {
+    padding-top: 70px;
+    padding-bottom: 69px;
+  }
+}
+
+.baner-titel {
+  margin-bottom: 27px;
+  text-align: center;
+  color: var(--second-titel-color);
+}
+
+.baner-text {
+  text-align: center;
+  color: var(--second-text-color);
+  margin-bottom: 27px;
+}
+
+.baner-btn {
+  display: inline-block;
+  width: 268px;
+  height: 49px;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 2.06;
+  letter-spacing: 0.065em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .baner-btn {
+    width: 188px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .baner-btn {
+    width: 232px;
+    height: 60px;
+    font-size: 15px;
+  }
+}
+
+.baner-link {
+  color: var(--accent-color);
+}
+
+.baner-icon {
+  width: 268px;
+  height: 136px;
+  margin-bottom: 27px;
+}
+
+@media screen and (min-width: 768px) {
+  .baner-icon {
+    width: 308px;
+    height: 157px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .baner-icon {
+    width: 517px;
+    height: 264px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
