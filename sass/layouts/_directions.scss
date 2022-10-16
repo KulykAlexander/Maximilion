@@ -1,0 +1,129 @@
+.directions .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @include tablet {
+    padding-top: 80px;
+    padding-bottom: 93px;
+  }
+  @include desktop {
+    padding-top: 161px;
+    padding-bottom: 163px;
+  }
+}
+.directions-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+  @include tablet {
+    flex-direction: row;
+    gap: 41px;
+  }
+  @include desktop {
+    gap: 84px;
+  }
+}
+.directions-item {
+  min-width: 280px;
+  @include tablet {
+    min-width: 342px;
+  }
+  @include desktop {
+    min-width: 567px;
+  }
+}
+.directions-img {
+  position: relative;
+  margin-bottom: 27px;
+}
+.directions-icon-around {
+  position: absolute;
+  top: 158px;
+  left: 50%;
+
+  transform: translateX(-50%);
+  padding: 7px 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  z-index: 1;
+  @include tablet {
+    top: 192px;
+    padding: 8px 12px;
+    width: 50px;
+    height: 50px;
+  }
+  @include desktop {
+    top: 319px;
+    padding: 15px 25px;
+    width: 82px;
+    height: 82px;
+  }
+}
+.directions-icon {
+  width: 20px;
+  height: 20px;
+  @include tablet {
+    width: 24px;
+    height: 24px;
+  }
+  @include desktop {
+    width: 32px;
+    height: 32px;
+  }
+}
+.directions-content {
+  max-width: 280px;
+  @include tablet {
+    max-width: 342px;
+  }
+  @include desktop {
+    max-width: 567px;
+  }
+}
+.directions-titel {
+  margin-bottom: 5px;
+  font-size: 20px;
+  line-height: 1.59;
+  @include tablet {
+    margin-bottom: 12px;
+    font-size: 22px;
+  }
+  @include desktop {
+    font-size: 32px;
+  }
+}
+.directions-text {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+  @include tablet {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  @include desktop {
+    line-height: 2.06;
+  }
+}
+.directions-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 2.06%;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  @include desktop {
+    gap: 15px;
+    font-size: 15px;
+  }
+}
+.directions-link {
+  color: var(--accent-color);
+}
