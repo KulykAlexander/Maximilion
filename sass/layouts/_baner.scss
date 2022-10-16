@@ -1,5 +1,5 @@
 .baner .container {
-  //   position: relative;
+  position: relative;
   text-align: center;
   padding-top: 51px;
   padding-bottom: 38px;
@@ -7,21 +7,39 @@
   @include tablet {
     padding-top: 66px;
     padding-bottom: 53px;
+    padding-left: 60px;
+    text-align: start;
   }
   @include desktop {
     padding-top: 70px;
     padding-bottom: 69px;
+    padding-left: 351px;
   }
 }
 .baner-titel {
   margin-bottom: 27px;
   text-align: center;
   color: var(--second-titel-color);
+  @include tablet {
+    margin-bottom: 31px;
+  }
+  @include desktop {
+    margin-bottom: 22px;
+    text-align: start;
+  }
 }
 .baner-text {
   text-align: center;
   color: var(--second-text-color);
   margin-bottom: 27px;
+  @include tablet {
+    max-width: 299px;
+    text-align: start;
+  }
+  @include desktop {
+    max-width: 466px;
+    margin-bottom: 22px;
+  }
 }
 .baner-btn {
   display: inline-block;
@@ -36,6 +54,8 @@
   text-transform: uppercase;
   @include tablet {
     width: 188px;
+    margin-left: 0;
+    margin-right: auto;
   }
   @include desktop {
     width: 232px;
@@ -51,10 +71,15 @@
   height: 136px;
   margin-bottom: 27px;
   @include tablet {
+    position: absolute;
+    top: 144px;
+    right: 68px;
     width: 308px;
     height: 157px;
   }
   @include desktop {
+    top: 41px;
+    right: 354px;
     width: 517px;
     height: 264px;
   }
