@@ -491,14 +491,14 @@ body {
 
 @media screen and (min-width: 768px) {
   .numbers-item {
-    width: calc((100% - 150px) / 4);
+    width: 121px;
   }
 }
 
 @media screen and (min-width: 1920px) {
   .numbers-item {
     gap: 150px;
-    width: calc((100% - 150px) / 4);
+    width: 138px;
   }
 }
 
@@ -514,5 +514,110 @@ body {
     font-size: 18px;
     line-height: 1.22;
   }
+}
+
+@media screen and (min-width: 1920px) {
+  .about-us .container {
+    width: 1079px;
+    margin: 0 auto;
+  }
+}
+
+.about-us-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us-item {
+  margin-bottom: 39px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    margin-bottom: 84px;
+  }
+  .about-us-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .about-us-item {
+    gap: 76px;
+    margin-bottom: 160px;
+  }
+}
+
+.about-us-img {
+  width: 100%;
+  height: auto;
+}
+
+.about-us-content {
+  max-width: 100%;
+  padding-top: 24px;
+  padding-bottom: 39px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-content {
+    max-width: 340px;
+    padding-top: 24px;
+    padding-bottom: 39px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .about-us-content {
+    max-width: 476px;
+  }
+}
+
+.about-us-titel {
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-titel {
+    margin-bottom: 35px;
+  }
+}
+
+.about-us-text {
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-text {
+    margin-bottom: 35px;
+  }
+}
+
+.about-us-btn {
+  width: 191px;
+  height: 49px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 2.06;
+  text-align: center;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+@media screen and (min-width: 1920px) {
+  .about-us-btn {
+    width: 232px;
+    height: 60px;
+    font-size: 15px;
+  }
+}
+
+.about-us-btn .about-us-link {
+  color: var(--accent-color);
 }
 /*# sourceMappingURL=main.css.map */

@@ -29,11 +29,13 @@
   }
   @include tablet {
     // gap: 69px;
-    width: calc((100% - 150px) / 4);
+    // width: calc((100% - 150px) / 4);
+    width: 121px;
   }
   @include desktop {
     gap: 150px;
-    width: calc((100% - 150px) / 4);
+    // width: calc((100% - 150px) / 4);
+    width: 138px;
   }
 }
 // .numbers-content {
