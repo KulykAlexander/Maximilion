@@ -930,4 +930,126 @@ body {
 .directions-link {
   color: var(--accent-color);
 }
+
+.contact .container {
+  padding-top: 35px;
+  padding-bottom: 59px;
+  background-color: #f8f8fc;
+}
+
+@media screen and (min-width: 768px) {
+  .contact .container {
+    padding-top: 83px;
+    padding-bottom: 86px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .contact .container {
+    padding-top: 121px;
+    padding-bottom: 123px;
+  }
+}
+
+.contact-main-titel {
+  margin-bottom: 25px;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  line-height: 1.59;
+  text-align: center;
+  color: var(--main-titel-color);
+}
+
+@media screen and (min-width: 768px) {
+  .contact-main-titel {
+    margin-bottom: 35px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .contact-main-titel {
+    margin-bottom: 44px;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .contact-item {
+    gap: 97px;
+  }
+}
+
+.contact-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.contact-item:not(:last-child) {
+  margin-bottom: 44px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-item:not(:last-child) {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .contact-item:not(:last-child) {
+    margin-bottom: 90px;
+  }
+}
+
+.addres-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.contact-titel {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-titel {
+    margin-top: 0;
+    margin-bottom: 22px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .contact-titel {
+    margin-bottom: 31px;
+    font-size: 28px;
+  }
+}
+
+.contact-link {
+  font-size: 14px;
+  line-height: 2.06;
+  color: var(--main-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-link:hover, .contact-link:focus {
+  color: var(--accent-color);
+}
+
+@media screen and (min-width: 768px) {
+  .contact-link {
+    font-size: 16px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

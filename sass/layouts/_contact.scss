@@ -1,0 +1,85 @@
+.contact .container {
+  padding-top: 35px;
+  padding-bottom: 59px;
+  background-color: #f8f8fc;
+  @include tablet {
+    padding-top: 83px;
+    padding-bottom: 86px;
+  }
+  @include desktop {
+    padding-top: 121px;
+    padding-bottom: 123px;
+  }
+}
+.contact-main-titel {
+  margin-bottom: 25px;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  line-height: 1.59;
+  text-align: center;
+  color: var(--main-titel-color);
+  @include tablet {
+    margin-bottom: 35px;
+    font-size: 26px;
+  }
+  @include desktop {
+    margin-bottom: 44px;
+    font-size: 32px;
+  }
+}
+.contact-item {
+  @include tablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  @include desktop {
+    gap: 97px;
+  }
+}
+.contact-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.contact-item:not(:last-child) {
+  margin-bottom: 44px;
+  @include tablet {
+    margin-bottom: 64px;
+  }
+  @include desktop {
+    margin-bottom: 90px;
+  }
+}
+.addres-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.contact-titel {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  @include tablet {
+    margin-top: 0;
+    margin-bottom: 22px;
+    font-size: 24px;
+  }
+  @include desktop {
+    margin-bottom: 31px;
+    font-size: 28px;
+  }
+}
+.contact-link {
+  font-size: 14px;
+  line-height: 2.06;
+
+  color: var(--main-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+  @include tablet {
+    font-size: 16px;
+  }
+}
