@@ -1,5 +1,6 @@
 :root {
   --maim-color: #232a31;
+  --second-color: #ffffff;
   --accent-color: #59bc73;
   --hero-titel-color: #000000;
   --main-titel-color: #232a31;
@@ -1211,6 +1212,27 @@ textarea::placeholder {
     width: 232px;
     height: 60px;
     font-size: 15px;
+  }
+}
+
+.end .container {
+  padding-top: 58px;
+  padding-bottom: 74px;
+  text-align: center;
+  background-color: var(--maim-color);
+}
+
+@media screen and (min-width: 768px) {
+  .end .container {
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .end .container {
+    padding-top: 84px;
+    padding-bottom: 84px;
   }
 }
 /*# sourceMappingURL=main.css.map */

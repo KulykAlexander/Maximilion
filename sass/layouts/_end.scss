@@ -1,0 +1,14 @@
+.end .container {
+  padding-top: 58px;
+  padding-bottom: 74px;
+  text-align: center;
+  background-color: var(--maim-color);
+  @include tablet {
+    padding-top: 88px;
+    padding-bottom: 88px;
+  }
+  @include desktop {
+    padding-top: 84px;
+    padding-bottom: 84px;
+  }
+}
