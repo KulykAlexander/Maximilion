@@ -507,18 +507,50 @@
         </div>
       </section>
       <!-- Form -->
-      <!-- <section class="section form">
-        <form>
-          <input type="text" name="name" placeholder="Name" required />
-          <input type="email" name="email" placeholder="Email" required />
-          <textarea name="coment" rows="1" placeholder="Message"></textarea>
-          <input type="radio" class="form-input" name="city" value="newyork" id="newyork" />
-          <label class="form-label" for="newyork">New York</label>
-          <input type="radio" class="form-input" name="city" value="newjersey" id="newjersey" />
-          <label class="form-label" for="newjersey">New Jersey</label>
-          <button type="submit" class="btn">Submit</button>
-        </form>
-      </section> -->
+      <section class="section form">
+        <div class="container">
+          <form class="footer-form">
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea name="coment" rows="1" placeholder="Message"></textarea>
+            <div class="radio-button">
+              <div class="radio-check">
+                <input
+                  type="radio"
+                  class="radio-input visually-hidden"
+                  name="city"
+                  value="newyork"
+                  id="newyork"
+                />
+                <label class="radio-text" for="newyork">
+                  <span>
+                    <svg class="radio-check-icon" width="13" height="13">
+                      <use href="./images/icons.svg#icon-check"></use>
+                    </svg> </span
+                  >New York</label
+                >
+              </div>
+              <div class="radio-check">
+                <input
+                  type="radio"
+                  class="radio-input visually-hidden"
+                  name="city"
+                  value="newjersey"
+                  id="newjersey"
+                />
+                <label class="radio-text" for="newjersey">
+                  <span>
+                    <svg class="radio-check-icon" width="13" height="13">
+                      <use href="./images/icons.svg#icon-check"></use>
+                    </svg> </span
+                  >New Jersey</label
+                >
+              </div>
+            </div>
+            <button type="submit" class="form-btn btn">Submit</button>
+          </form>
+        </div>
+      </section>
       <!-- <section>
         <a href="" class="link">
           <svg class="" width="185" height="150">
