@@ -6,21 +6,45 @@
   @include tablet {
     padding-top: 88px;
     padding-bottom: 88px;
+    text-align: start;
   }
   @include desktop {
     padding-top: 84px;
+    padding-right: 344px;
     padding-bottom: 84px;
+    padding-left: 344px;
+  }
+}
+.navigation {
+  @include tablet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 58px;
+    margin-bottom: 60px;
+  }
+  @include desktop {
+    margin-bottom: 70px;
   }
 }
 .logo-footer {
   display: block;
   margin-bottom: 42px;
+  @include tablet {
+    margin-bottom: 0;
+  }
 }
 .navigation-list {
   margin-bottom: 32px;
+  @include tablet {
+    margin-bottom: 0;
+  }
 }
-.navigation-item {
+.navigation-item:not(:last-child) {
   margin-bottom: 12px;
+  @include tablet {
+    margin-bottom: 26px;
+  }
 }
 .navigation-link {
   font-weight: 500;
@@ -28,14 +52,25 @@
   line-height: 1.25;
   color: var(--second-text-color);
 }
+.conection {
+  @include tablet {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+}
 .footer-conection {
   display: flex;
   justify-content: space-between;
   margin-bottom: 19px;
+  @include tablet {
+    gap: 58px;
+  }
 }
 .footer-conection-item {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 .footer-conection-link {
   font-weight: 500;
@@ -54,7 +89,7 @@
   font-size: 15px;
   line-height: 2.06;
 
-  color: var(--second-tex-color);
+  color: var(--second-text-color);
   @include tablet {
     font-size: 16px;
   }
