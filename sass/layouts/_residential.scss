@@ -1,0 +1,67 @@
+.residential-hero .container {
+  padding-bottom: 33px;
+  background-color: #f8f8fc;
+  @include tablet {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 65px;
+    padding-bottom: 41px;
+  }
+  @include desktop {
+    align-items: center;
+    padding-top: 88px;
+    padding-right: 351px;
+    padding-bottom: 88px;
+    padding-left: 351px;
+  }
+}
+// .residential-hero {
+//   @include tablet {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//   }
+// }
+.residential-img {
+  width: 100%;
+  @include tablet {
+    width: 362px;
+  }
+  @include desktop {
+    width: 624px;
+  }
+}
+.residential-titel {
+  margin-top: 38px;
+  margin-bottom: 24px;
+  @include tablet {
+    position: absolute;
+    top: 111px;
+    right: 40px;
+    width: 516px;
+    padding-left: 30px;
+
+    background: rgba(255, 255, 255, 0.8);
+  }
+  @include desktop {
+    font-size: 50px;
+    top: 172px;
+    right: 354px;
+    width: 768px;
+    padding-left: 40px;
+  }
+}
+.residential-text {
+  font-size: 14px;
+  line-height: 1.6;
+  @include tablet {
+    font-size: 16px;
+    max-width: 310px;
+  }
+  @include desktop {
+    line-height: 2.06;
+    max-width: 476px;
+  }
+}
