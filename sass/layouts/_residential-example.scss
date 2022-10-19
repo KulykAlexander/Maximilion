@@ -1,0 +1,60 @@
+.residential-example .container {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  @include tablet {
+    padding-top: 83px;
+    padding-bottom: 92px;
+  }
+  @include desktop {
+    padding-top: 112px;
+    padding-right: 351px;
+    padding-bottom: 125px;
+    padding-left: 351px;
+  }
+}
+.example-list {
+  margin-bottom: 65px;
+  @include tablet {
+    margin-bottom: 84px;
+  }
+  @include desktop {
+    margin-bottom: 125px;
+  }
+}
+.example-item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 65px;
+  @include tablet {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 44px;
+    margin-bottom: 84px;
+    &:nth-child(odd) {
+      flex-direction: row-reverse;
+    }
+  }
+  @include desktop {
+    gap: 118px;
+    margin-bottom: 125px;
+  }
+}
+.example-img {
+  width: 100%;
+  @include tablet {
+    width: 387px;
+  }
+  @include desktop {
+    width: 527px;
+  }
+}
+.example-text {
+  @include tablet {
+    max-width: 296px;
+  }
+  @include desktop {
+    max-width: 573px;
+  }
+}
