@@ -24,3 +24,8 @@ body {
   border: 2px solid var(--accent-color);
   border-radius: 100px;
 }
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}

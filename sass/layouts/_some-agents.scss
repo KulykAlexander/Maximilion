@@ -1,0 +1,74 @@
+.some-agents .container {
+  padding-top: 40px;
+  padding-bottom: 64px;
+  @include tablet {
+    padding-top: 64px;
+    padding-bottom: 92px;
+  }
+  @include desktop {
+    padding-top: 124px;
+    padding-right: 351px;
+    padding-bottom: 124px;
+    padding-left: 351px;
+  }
+}
+.some-agents-list {
+  @include desktop {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+.some-agents-item {
+  width: 280px;
+  height: 434px;
+  padding: 35px 33px;
+  margin: 0 auto;
+  margin-bottom: 26px;
+  border: 1px solid #e0e0e8;
+  @include tablet {
+    display: flex;
+    gap: 42px;
+
+    align-items: center;
+    width: 728px;
+    height: 229px;
+  }
+  @include desktop {
+    width: 594px;
+    height: 248px;
+    margin-bottom: 0;
+  }
+}
+.agent {
+  text-align: center;
+  @include tablet {
+    text-align: start;
+  }
+}
+.agent-titel {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.59;
+  margin-top: 27px;
+  margin-bottom: 9px;
+  @include tablet {
+    margin-top: 0;
+    font-size: 22px;
+  }
+}
+.agent-text {
+  font-size: 16px;
+  line-height: 2.06;
+  color: var(--main-titel-color);
+}
+.agent-cont {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: var(--main-titel-color);
+  background-color: #ffffff;
+  .agent-icon {
+    fill: currentColor;
+  }
+}

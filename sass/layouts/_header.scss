@@ -100,12 +100,16 @@
   position: fixed;
   background-color: #f8f8fc;
   z-index: 1;
-  top: 89px;
-  right: 0;
-  width: 385px;
+  top: 114px;
+  // left: 20%;
+  // right: 0;
+  width: 100%;
   height: 517px;
   padding: 41px 34px;
   @include tablet {
+    left: 52.67%;
+    // top: 111px;
+    width: 385px;
     height: 494px;
   }
 

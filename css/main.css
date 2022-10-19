@@ -62,6 +62,12 @@ body {
   border-radius: 100px;
 }
 
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -262,15 +268,16 @@ body {
   position: fixed;
   background-color: #f8f8fc;
   z-index: 1;
-  top: 89px;
-  right: 0;
-  width: 385px;
+  top: 114px;
+  width: 100%;
   height: 517px;
   padding: 41px 34px;
 }
 
 @media screen and (min-width: 768px) {
   .mob-menu {
+    left: 52.67%;
+    width: 385px;
     height: 494px;
   }
 }
@@ -1071,7 +1078,9 @@ body {
 @media screen and (min-width: 1920px) {
   .form .container {
     padding-top: 125px;
+    padding-right: 516px;
     padding-bottom: 125px;
+    padding-left: 516px;
   }
 }
 
@@ -1617,5 +1626,104 @@ textarea::placeholder {
   text-align: center;
   text-decoration-line: underline;
   color: var(--accent-color);
+}
+
+.some-agents .container {
+  padding-top: 40px;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .some-agents .container {
+    padding-top: 64px;
+    padding-bottom: 92px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .some-agents .container {
+    padding-top: 124px;
+    padding-right: 351px;
+    padding-bottom: 124px;
+    padding-left: 351px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .some-agents-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+.some-agents-item {
+  width: 280px;
+  height: 434px;
+  padding: 35px 33px;
+  margin: 0 auto;
+  margin-bottom: 26px;
+  border: 1px solid #e0e0e8;
+}
+
+@media screen and (min-width: 768px) {
+  .some-agents-item {
+    display: flex;
+    gap: 42px;
+    align-items: center;
+    width: 728px;
+    height: 229px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .some-agents-item {
+    width: 594px;
+    height: 248px;
+    margin-bottom: 0;
+  }
+}
+
+.agent {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .agent {
+    text-align: start;
+  }
+}
+
+.agent-titel {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.59;
+  margin-top: 27px;
+  margin-bottom: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  .agent-titel {
+    margin-top: 0;
+    font-size: 22px;
+  }
+}
+
+.agent-text {
+  font-size: 16px;
+  line-height: 2.06;
+  color: var(--main-titel-color);
+}
+
+.agent-cont {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: var(--main-titel-color);
+  background-color: #ffffff;
+}
+
+.agent-cont .agent-icon {
+  fill: currentColor;
 }
 /*# sourceMappingURL=main.css.map */
