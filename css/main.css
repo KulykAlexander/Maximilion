@@ -386,7 +386,7 @@ body {
   left: 35px;
   width: 256px;
   height: 387px;
-  padding: 35px, 22px;
+  padding: 35px 22px;
   background: rgba(255, 255, 255, 0.8);
 }
 
@@ -394,9 +394,9 @@ body {
   .hero-content {
     top: 57px;
     left: 20px;
-    width: 404px;
+    width: 444px;
     height: 380px;
-    padding: 42px, 34px;
+    padding: 42px 34px;
   }
 }
 
