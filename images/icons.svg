@@ -132,5 +132,15 @@
 <symbol id="icon-agent-phone" viewBox="0 0 32 32">
 <path d="M15.376 16.629c5.319 5.317 6.525-0.833 9.912 2.551 3.264 3.264 5.141 3.917 1.004 8.053-0.517 0.416-3.809 5.427-15.379-6.14-11.571-11.568-6.564-14.864-6.148-15.381 4.147-4.147 4.789-2.26 8.053 1.004 3.387 3.387-2.761 4.596 2.557 9.913z"></path>
 </symbol>
+<symbol id="icon-menu1" viewBox="0 0 36 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M33.28 5.12h-30.72M33.28 26.88h-30.72M33.28 16h-24.774"></path>
+</symbol>
+<symbol id="icon-menu2" viewBox="0 0 36 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M33.28 5.12h-30.72M33.28 26.88h-30.72M33.28 16h-24.774"></path>
+</symbol>
+<symbol id="icon-facebook-two" viewBox="0 0 31 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.4222" d="M3.556 1.304h23.704c1.571 0 2.844 1.274 2.844 2.844v23.704c0 1.571-1.273 2.844-2.844 2.844h-23.704c-1.571 0-2.844-1.273-2.844-2.844v-23.704c0-1.571 1.274-2.844 2.844-2.844z"></path>
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.4222" d="M21.084 8.702c-6.488-0.811-5.677 6.488-5.677 8.109v12.975M10.542 18.433h9.73"></path>
+</symbol>
   </defs>
 </svg>
