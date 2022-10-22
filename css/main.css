@@ -224,7 +224,7 @@ body {
 }
 
 .heder-soc {
-  display: inline-block;
+  display: block;
   width: 26px;
   height: 26px;
   color: var(--main-color);
@@ -248,7 +248,7 @@ body {
 @media screen and (min-width: 768px) {
   .menu-btn {
     position: absolute;
-    left: 454px;
+    left: 440px;
   }
 }
 
