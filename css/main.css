@@ -167,7 +167,7 @@ body {
   gap: 57px;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1919px) {
   .desktop-nav {
     display: none;
   }
@@ -1028,6 +1028,8 @@ body {
 .contact-titel {
   margin-top: 20px;
   margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 400;
   font-size: 20px;
 }
 
