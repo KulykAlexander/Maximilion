@@ -107,7 +107,7 @@ body {
 }
 
 .titel {
-  font-family: 'Playfair Display' serif;
+  font-family: 'Playfair Display', serif;
   font-size: 24px;
   line-height: 1.33;
   color: var(--main-titel-color);
@@ -412,7 +412,7 @@ body {
 }
 
 .hero-titel {
-  font-family: 'Playfair Display' serif;
+  font-family: 'Playfair Display', serif;
   font-size: 24px;
   line-height: 1.4;
   margin-bottom: 17px;
