@@ -51,6 +51,9 @@
   }
 }
 .example-text {
+  & span {
+    color: var(--accent-color);
+  }
   @include tablet {
     max-width: 296px;
   }
