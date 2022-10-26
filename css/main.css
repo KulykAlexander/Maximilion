@@ -17,6 +17,7 @@ h5,
 h6,
 p {
   margin: 0;
+  font-style: normal;
 }
 
 ul {
@@ -108,6 +109,8 @@ body {
 
 .titel {
   font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 24px;
   line-height: 1.33;
   color: var(--main-titel-color);
@@ -413,6 +416,8 @@ body {
 
 .hero-titel {
   font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 24px;
   line-height: 1.4;
   margin-bottom: 17px;
@@ -1571,7 +1576,9 @@ textarea::placeholder {
 }
 
 .agents-hero-titel {
-  font-family: 'Playfair Display' serif;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 24px;
   line-height: 1.4;
   text-align: center;
