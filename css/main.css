@@ -101,7 +101,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .container {
     width: 1920px;
   }
@@ -123,7 +123,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .titel {
     font-size: 32px;
   }
@@ -143,7 +143,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .text {
     font-size: 16px;
     line-height: 2.06;
@@ -255,7 +255,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .menu-btn {
     display: none;
   }
@@ -333,7 +333,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .hero-img-befor {
     width: 734px;
     height: 810px;
@@ -370,7 +370,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .hero-img {
     width: 1183px;
     height: 810px;
@@ -378,7 +378,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) and (min-device-pixel-ratio: 2), screen and (min-width: 1920px) and (min-resolution: 192dpi), screen and (min-width: 1920px) and (min-resolution: 2dppx) {
+@media screen and (min-device-width: 1920px) and (min-device-pixel-ratio: 2), screen and (min-device-width: 1920px) and (min-resolution: 192dpi), screen and (min-device-width: 1920px) and (min-resolution: 2dppx) {
   .hero-img {
     background-image: url(../images/hero-2x.jpg);
   }
@@ -405,7 +405,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .hero-content {
     top: 162px;
     left: 250px;
@@ -432,7 +432,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .hero-titel {
     font-size: 50px;
     line-height: 1.59;
@@ -474,7 +474,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .numbers .container {
     padding: 108px 485px;
   }
@@ -508,7 +508,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .numbers-item {
     gap: 150px;
     width: 138px;
@@ -522,14 +522,14 @@ body {
   line-height: 1.25;
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .numbers-text {
     font-size: 18px;
     line-height: 1.22;
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .about-us .container {
     width: 1079px;
     margin: 0 auto;
@@ -558,7 +558,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .about-us-item {
     gap: 76px;
     margin-bottom: 160px;
@@ -584,7 +584,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .about-us-content {
     max-width: 476px;
   }
@@ -622,7 +622,7 @@ body {
   color: var(--accent-color);
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .about-us-btn {
     width: 232px;
     height: 60px;
@@ -651,7 +651,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .baner .container {
     padding-top: 70px;
     padding-bottom: 69px;
@@ -671,7 +671,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .baner-titel {
     margin-bottom: 22px;
     text-align: start;
@@ -691,7 +691,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .baner-text {
     max-width: 466px;
     margin-bottom: 22px;
@@ -719,7 +719,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .baner-btn {
     width: 232px;
     height: 60px;
@@ -747,7 +747,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .baner-icon {
     top: 41px;
     right: 354px;
@@ -768,7 +768,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .directions .container {
     padding-top: 161px;
     padding-bottom: 163px;
@@ -790,7 +790,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .directions-list {
     gap: 84px;
   }
@@ -806,7 +806,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .directions-item {
     min-width: 567px;
   }
@@ -839,7 +839,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .directions-icon-around {
     top: 319px;
     padding: 15px 25px;
@@ -860,7 +860,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .directions-icon {
     width: 32px;
     height: 32px;
@@ -877,7 +877,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .directions-content {
     max-width: 567px;
   }
@@ -896,7 +896,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .directions-titel {
     font-size: 32px;
   }
@@ -915,7 +915,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .directions-text {
     line-height: 2.06;
   }
@@ -935,7 +935,7 @@ body {
   background-color: #ffffff;
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .directions-btn {
     gap: 15px;
     font-size: 15px;
@@ -959,7 +959,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .contact .container {
     padding-top: 121px;
     padding-bottom: 123px;
@@ -982,7 +982,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .contact-main-titel {
     margin-bottom: 44px;
     font-size: 32px;
@@ -998,7 +998,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .contact-item {
     gap: 97px;
   }
@@ -1018,7 +1018,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .contact-item:not(:last-child) {
     margin-bottom: 90px;
   }
@@ -1046,7 +1046,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .contact-titel {
     margin-bottom: 31px;
     font-size: 28px;
@@ -1084,7 +1084,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .form .container {
     padding-top: 125px;
     padding-right: 516px;
@@ -1124,7 +1124,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .footer-form input {
     min-width: 412px;
   }
@@ -1169,7 +1169,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .radio-button {
     gap: 46px;
   }
@@ -1207,7 +1207,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .radio-text {
     font-size: 18px;
   }
@@ -1248,7 +1248,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .form-btn {
     width: 232px;
     height: 60px;
@@ -1271,7 +1271,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .end .container {
     padding-top: 84px;
     padding-right: 344px;
@@ -1290,7 +1290,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .navigation {
     margin-bottom: 70px;
   }
@@ -1367,7 +1367,7 @@ textarea::placeholder {
   color: var(--second-color);
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .footer-conection-link {
     font-size: 18px;
   }
@@ -1390,7 +1390,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .copi {
     font-size: 18px;
   }
@@ -1412,7 +1412,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .residential-hero .container {
     align-items: center;
     padding-top: 88px;
@@ -1432,7 +1432,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .residential-img {
     width: 624px;
   }
@@ -1454,7 +1454,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .residential-titel {
     font-size: 50px;
     top: 172px;
@@ -1476,7 +1476,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .residential-text {
     line-height: 2.06;
     max-width: 476px;
@@ -1495,7 +1495,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .residential-example .container {
     padding-top: 112px;
     padding-right: 351px;
@@ -1514,7 +1514,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .example-list {
     margin-bottom: 125px;
   }
@@ -1540,7 +1540,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .example-item {
     gap: 118px;
     margin-bottom: 125px;
@@ -1557,7 +1557,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .example-img {
     width: 527px;
   }
@@ -1569,7 +1569,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .example-text {
     max-width: 573px;
   }
@@ -1590,7 +1590,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .all-agents .container {
     padding-right: 648px;
     padding-bottom: 40px;
@@ -1617,7 +1617,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .agents-hero-titel {
     font-size: 50px;
     line-height: 1.59;
@@ -1674,7 +1674,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .some-agents .container {
     padding-top: 124px;
     padding-right: 351px;
@@ -1683,7 +1683,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .some-agents-list {
     display: flex;
     flex-wrap: wrap;
@@ -1710,7 +1710,7 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-device-width: 1920px) {
   .some-agents-item {
     width: 594px;
     height: 248px;
