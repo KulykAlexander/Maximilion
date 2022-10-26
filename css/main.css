@@ -1104,6 +1104,7 @@ body {
   width: 100%;
   height: 44px;
   padding: 8px 0;
+  margin-bottom: 35px;
   background-color: #383f46;
   border: none;
   border-bottom: 1px solid #cbcbcd;
@@ -1112,6 +1113,28 @@ body {
 .footer-form input::placeholder {
   font-size: 18px;
   line-height: 2.05;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-form input {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .footer-form input {
+    min-width: 412px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-form .inp {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 textarea {
