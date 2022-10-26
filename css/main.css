@@ -659,6 +659,11 @@ body {
   }
 }
 
+.baner {
+  width: 100vp;
+  background-color: var(--accent-color);
+}
+
 .baner-titel {
   margin-bottom: 27px;
   text-align: center;
@@ -966,6 +971,11 @@ body {
   }
 }
 
+.contact {
+  width: 100vp;
+  background-color: #f8f8fc;
+}
+
 .contact-main-titel {
   margin-bottom: 25px;
   font-family: 'Playfair Display';
@@ -1091,6 +1101,11 @@ body {
     padding-bottom: 125px;
     padding-left: 256px;
   }
+}
+
+.form {
+  width: 100vp;
+  background-color: #383f46;
 }
 
 .footer-form {
@@ -1278,6 +1293,11 @@ textarea::placeholder {
     padding-bottom: 84px;
     padding-left: 84px;
   }
+}
+
+.end {
+  width: 100vp;
+  background-color: var(--maim-color);
 }
 
 @media screen and (min-width: 768px) {
