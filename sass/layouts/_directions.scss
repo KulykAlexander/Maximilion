@@ -119,10 +119,30 @@
   letter-spacing: 0.065em;
   text-transform: uppercase;
   background-color: #ffffff;
+  color: var(--accent-color);
+  &:hover > .directions-btn-icon,
+  &:focus > .directions-btn-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    color: #fff;
+  }
+  // &:hover > .directions-titel,
+  // &:focus > .directions-titel {
+  //   color: var(--accent-color);
+  // }
+  .directions-btn-icon {
+    fill: currentColor;
+  }
   @include desktop {
     gap: 15px;
     font-size: 15px;
   }
+}
+.directions-btn:hover .directions-titel,
+.directions-btn:focus > .directions-titel {
+  color: var(--accent-color);
 }
 .directions-link {
   color: var(--accent-color);

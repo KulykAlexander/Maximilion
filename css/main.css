@@ -964,6 +964,20 @@ body {
   letter-spacing: 0.065em;
   text-transform: uppercase;
   background-color: #ffffff;
+  color: var(--accent-color);
+}
+
+.directions-btn:hover > .directions-btn-icon,
+.directions-btn:focus > .directions-btn-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
+.directions-btn .directions-btn-icon {
+  fill: currentColor;
 }
 
 @media screen and (min-width: 1400px) {
@@ -971,6 +985,11 @@ body {
     gap: 15px;
     font-size: 15px;
   }
+}
+
+.directions-btn:hover .directions-titel,
+.directions-btn:focus > .directions-titel {
+  color: var(--accent-color);
 }
 
 .directions-link {
