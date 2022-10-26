@@ -164,4 +164,11 @@
 
   background: var(--accent-color);
   color: var(--second-text-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #383f46;
+    border-color: #383f46;
+  }
 }
