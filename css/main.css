@@ -1412,6 +1412,10 @@ textarea::placeholder {
   color: var(--second-text-color);
 }
 
+.navigation-link:hover, .navigation-link:focus {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   .conection {
     display: flex;
