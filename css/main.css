@@ -1528,7 +1528,7 @@ textarea::placeholder {
 @media screen and (min-width: 768px) {
   .residential-titel {
     position: absolute;
-    top: 111px;
+    top: 101px;
     right: 40px;
     width: 516px;
     padding-left: 30px;
@@ -1539,7 +1539,7 @@ textarea::placeholder {
 @media screen and (min-width: 1400px) {
   .residential-titel {
     font-size: 50px;
-    top: 172px;
+    top: 142px;
     right: 354px;
     width: 768px;
     padding-left: 40px;
