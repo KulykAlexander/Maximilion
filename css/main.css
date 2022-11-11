@@ -467,7 +467,7 @@ body {
   color: var(--second-text-color);
 }
 
-.hero-btn:hover.hero-link, .hero-btn:focus {
+.hero-btn:hover, .hero-btn:focus {
   background-color: #383f46;
   border-color: #383f46;
 }
@@ -1721,7 +1721,6 @@ textarea::placeholder {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
   margin-bottom: 11px;
 }
 
@@ -1729,6 +1728,17 @@ textarea::placeholder {
   .all-agents-list {
     margin-bottom: 27px;
   }
+}
+
+.agent-btn {
+  font-family: inherit;
+  border: none;
+  color: var(--maim-color);
+  background-color: #f8f8fc;
+}
+
+.agent-btn:hover, .agent-btn:focus, .agent-btn:active {
+  color: var(--accent-color);
 }
 
 .all-agents-link {
@@ -1742,7 +1752,21 @@ textarea::placeholder {
   color: var(--accent-color);
 }
 
-.view-link {
+.all-agents-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: none;
+  color: var(--maim-color);
+  background-color: #f8f8fc;
+}
+
+.all-agents-btn:active {
+  color: var(--accent-color);
+}
+
+.all-agents-btn .view-link {
   display: block;
   margin: 0 auto;
   font-weight: 400;
@@ -1753,12 +1777,12 @@ textarea::placeholder {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.view-link:hover {
+.all-agents-btn .view-link:hover {
   text-decoration-line: underline;
   color: var(--accent-color);
 }
 
-.view-link:focus, .view-link:active {
+.all-agents-btn .view-link:focus, .all-agents-btn .view-link:active {
   color: var(--accent-color);
 }
 
