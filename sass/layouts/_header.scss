@@ -1,9 +1,13 @@
 .header .container {
-  position: relative;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px 40px;
+  background: #ffffff;
+  z-index: 30;
 }
 .desktop-menu {
   display: flex;

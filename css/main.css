@@ -155,11 +155,15 @@ body {
 }
 
 .header .container {
-  position: relative;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px 40px;
+  background: #ffffff;
+  z-index: 30;
 }
 
 .desktop-menu {
@@ -319,6 +323,12 @@ body {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .hero .container {
+    top: 111px;
+  }
 }
 
 .hero-picture {
